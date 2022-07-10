@@ -1,0 +1,16 @@
+$bg-main: #fff;
+$bg-accent: #00BFA6;
+$clr-accent: #00BFA6;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-main;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.clr-accent {
+  color: $clr-accent
+}
