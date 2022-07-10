@@ -9,8 +9,18 @@ $clr-accent: #00BFA6;
 body {
   background-color: $bg-main;
   font-family: 'Montserrat', sans-serif;
+  padding: 0 10px;
 }
 
 .clr-accent {
   color: $clr-accent
+}
+
+.bg-accent {
+  background-color: $bg-accent;
+}
+
+#app {
+  overflow-x: hidden;
+  text-align: center;
 }

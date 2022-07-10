@@ -30,5 +30,6 @@ onMounted(() => {
 .view__heading {
   margin-top: 45px;
   font-weight: 400;
+  text-align: left;
 }
 </style>
