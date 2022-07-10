@@ -3,8 +3,8 @@ import router from "@/router";
 import type { IFirstVisitState } from "@/interfaces";
 
 export const useFirstVisitStore = defineStore("firstVisit", {
-  state: ():IFirstVisitState => ({
-    firstVisit: JSON.parse(localStorage.getItem("firstVisit")!) || true,
+  state: (): IFirstVisitState => ({
+    firstVisit: JSON.parse(`${localStorage.getItem("firstVisit")}`) || true,
   }),
   actions: {
     visited() {
