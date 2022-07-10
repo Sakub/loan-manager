@@ -16,5 +16,9 @@ defineProps<{
   border-radius: 10px;
   height: 55px;
   font-size: 1.5rem;
+  -webkit-box-shadow: 0 4px 4px 0 #00000040;
+  -moz-box-shadow: 0 4px 4px 0 #00000040;
+  box-shadow: 0 4px 4px 0 #00000040;
+  -webkit-appearance: none;
 }
 </style>
