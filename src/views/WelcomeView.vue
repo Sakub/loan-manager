@@ -7,20 +7,18 @@
   <img src="../assets/welcomeScreen.svg" class="view__svg" />
   <Button
     text="LEAVE IT TO US!"
-    @click="store.visited"
+    @click="() => showView('app-info')"
     class="welcomeView__button"
   />
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-
-import { useFirstVisitStore } from "@/stores/firstVisit";
-
 import Button from "@/components/Button.vue";
 import ViewHeading from "@/components/ViewHeading.vue";
 
-const store = useFirstVisitStore();
+import { utils } from "@/utils";
+
+const { showView } = utils();
 </script>
 <style scoped lang="scss">
 .view__svg {

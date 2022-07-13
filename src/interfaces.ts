@@ -1,3 +1,5 @@
 export interface IFirstVisitState {
-  firstVisit: boolean
+  firstVisit: boolean;
 }
+
+export type availableViews = "welcome" | "app-info";
