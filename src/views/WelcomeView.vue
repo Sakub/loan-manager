@@ -8,7 +8,7 @@
   <Button
     text="LEAVE IT TO US!"
     @click="() => showView('app-info')"
-    class="welcomeView__button"
+    class="button-bottom"
   />
 </template>
 
@@ -26,10 +26,4 @@ const { showView } = utils();
   margin: 25px 0;
 }
 
-.welcomeView__button {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-}
 </style>

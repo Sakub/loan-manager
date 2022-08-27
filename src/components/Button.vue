@@ -21,4 +21,11 @@ defineProps<{
   box-shadow: 0 4px 4px 0 #00000040;
   -webkit-appearance: none;
 }
+
+.button-bottom {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 </style>
